@@ -1,271 +1,409 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+
+*
+{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+   
+  
+}
 body
 {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-font-family: 'Public Sans', sans-serif;
-font-size: 18px;
+    overflow-x: hidden;
 }
 
 header
 {
+    background-image: url('./images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+    width: 100%;
+}
+
+header .logo
+{
+   position: relative;
+  transform: scale(0.6);
+   
+}
+
+header .navbar
+{
+   position:absolute;
+    top: 0;
+    left: 60%;
+    width: 100%;
+    padding: 40px 100px;
     display: flex;
-    background-color: #fff;
-    
-    padding: 20px 20px;
     justify-content: space-between;
     align-items: center;
     
+ 
 }
 
-li, a, button
+header .navbar ul
 {
+    position: relative;
+    display: flex;
+    
+}
+
+header .navbar ul li
+{
+text-decoration: none;
+list-style-type: none;
+}
+
+header .navbar ul li a
+{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Alata', sans-serif;
+    margin-left: 40px;
     text-decoration: none;
 }
 
-.logo
+
+
+header .slogan-box
+{
+ position: relative;
+ left: 10%;
+ padding: 100px;
+ border: 1.5px solid #fff;
+ padding: 30px;
+ display:flex;
+ width: 45%;
+ margin-top: 2%;
+ margin-left: 2%;
+ 
+  
+}
+
+header .slogan-box p
+{
+    color: #fff;
+    text-transform: uppercase;
+   
+    text-align: center;
+    font-family: 'Josefin', sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+    padding-left: 5%;
+    letter-spacing: 10px;
+}
+footer
 {
    
-}
-
-.nav-links
-{
-    list-style: none;
-}
-
-
-.nav-links li
-{
+    align-items: center;
+    justify-content: center;
+ 
+    background-color: black;
     
+    padding: 10px 0px;
+    max-width: 100%;
+}
+
+
+
+footer .footer-list
+{
     display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav-links li a
-{
+    position: relative;
+    bottom: 0;
+    padding: 0px 100px;
+    
    
-    color: grey;
-   
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px 0px;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    
 }
 
-.nav-links li a:hover
-{
-    color:#0088a9;
-}
 
-button
+footer .footer-list ul 
 {
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border:none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-button:hover
-{
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-section .background-box
-{
-    background-color: grey;
-}
-
-section .info-title
-{
-display: flex;
-align-items: center;
-justify-content: flex-start;
-padding-left: 25%;
-padding-top: 5%;
-}
-
-section .info-section
-{
-display: flex;
-align-items: center;
-justify-content: flex-start;
-padding-left: 25%;
-padding-bottom: 5%;
-}
-
-section .first-section-button
-{
+    position: relative;
     display: flex;
+    
+}
+
+footer .footer-list ul li
+{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+footer .footer-list ul li a
+{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+section
+{
+    padding-top: 100px;
+}
+
+section .container .vr-headset 
+{
+    display:flex;
+    position: relative;
     align-items: center;
     justify-content: flex-start;
     padding-left: 25%;
     
-}
-section .phones
-{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: -27%;
+    
     
 }
 
-section .background-box-2
+section .container .vr-headset img
 {
-    background-color: lightblue;
-    margin-top: -12%;
+    
+}
+
+
+section .container .history-text
+{
+    
+    position: relative;
+    text-align: center;
+    margin-left: 55%;
+   margin-top: -17%;
+   background-color: #fff;
+   padding-bottom: 5%;
    
 }
 
-section .grid
+section .container .history-text h3
 {
-    display:grid;
-    padding: 40px 0px;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 25px;
-    padding-left: 10%;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-family: 'Josefin' sans-serif;
+    font-weight: 300;
+   font-size: 3rem;
+   padding-bottom: 5%;
+}
+
+section .container .history-text p
+{
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    color: grey;
     padding-bottom: 5%;
 }
 
-section .easybank-header
+section .card-container .container_two .see-all
 {
+    position: relative;
+    align-items: center;
     display: flex;
-align-items: center;
-justify-content: flex-start;
-padding-left: 25%;
-padding-top: 5%;
-}
-
-section .easybank-main-summary
-{
-    display: flex;
-align-items: center;
-justify-content: flex-start;
-padding-left: 25%;
-padding-bottom: 5%;
-}
-
-section .grid .easybank-summary
-{
-    color:grey;
+    justify-content: center;
+    left: 30%;
     
 }
 
-section .articles-title
+section .card-container .container_two .see-all a
 {
-    padding-left: 20%;
-    padding-top: 50px;
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #555;
+    width:10%;
+    text-align: center;
+    padding: 15px 15px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+          
 }
-section .cards
+
+section .card-container .container_two .creation-title
 {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    right: 35%;
+}
+
+section .card-container .container_two .creation-title h3
+{
+    text-transform: uppercase;
+    font-family: 'Josefin', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: hs1(0,0%, 41%);
+    padding-left: 10%;
+
+}
+
+section .card-container .container_two .cards
+{
+    
     display:grid;
     padding: 40px 0px;
-    grid-template-columns: 350px 350px 350px 350px;
-    grid-column-gap: 30px;
-    padding-left: 15%;
-   
-
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 145px;
+  grid-row-gap: 105px;
+  padding-bottom: 100px;
+  padding-left: 10%;
 }
 
-section .cards .card-one
+section .card-container .container_two .cards .card-deep p
 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: -50%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 
-section .cards .card-one img
+section .card-container .container_two .cards .card-night p
 {
-    max-width:100%;
-max-height:100%;
-   
+    margin-top: -50%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 
-section .cards .card-two
+section .card-container .container_two .cards .card_soccer p
 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-section .cards .card-two img
-{
-    max-width:100%;
-max-height:100%;
-}
-section .cards .card-three
-{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-section .cards .card-three img
-{
-    max-width:100%;
-max-height:100%;
-}
-section .cards .card-four
-{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: -50%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 
-section .cards .card-four img
+section .card-container .container_two .cards .card_grid p
 {
-    max-width:100%;
-max-height:100%;
+    margin-top: -50%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 
-section .cards .author
+section .card-container .container_two .cards .card_vr p
 {
-    padding-left: 40px;
+    margin-top: -50%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+section .card-container .container_two .cards .card_pocket p
+{
+    margin-top: -50%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+section .card-container .container_two .cards .card_curiosity p
+{
+    margin-top: -50%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+section .card-container .container_two .cards .card_fisheye p
+{
+    
+    margin-top: -50%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    
+}
+
+footer .info
+{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    left: 40%;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    
+}  
+
+footer .info p
+{
     color: grey;
+    
 }
 
-section .cards .headline
+footer .socials
 {
-    padding-left: 40px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    right: 5%;
+
 }
 
-section .cards .summary
+footer .socials img
 {
-    padding-left: 40px;
+    margin-bottom: 2%;
+    padding-right: 0.5%;
 }
 
-footer
+footer .footer-logo
 {
-    background-color: #000;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-left: 30%;
+    justify-content: flex-start;
+    padding-top: 10%;
+    
+    
 }
 
-
-footer .footer-links
+footer .footer-logo img
 {
+   transform: scale(0.6);
+}
 
+section .container_two .cards
+{
+    position: relative;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: column;
+    margin-right: 30%;
     
-}
-
-.footer-links li
-{
-    
-    list-style: none;
-}
-
-.footer-links li a
-{
-    color: white;
-    display: flex;
-  
-}
-
-footer .footer.logo
-{
-    transform: scale(0.5);
+   
 }
 
 
-footer .footer-button
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 60%;
-    padding-bottom: 2%;
-}
