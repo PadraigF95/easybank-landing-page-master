@@ -11,31 +11,24 @@ The designs were created to the following widths:
 
 ### Primary
 
-- White: hsl(0, 0%, 100%)
-- Black: hsl(0, 0%, 0%)
-- Dark Gray: hsl(0, 0%, 55%)
-- Very Dark Gray: hsl(0, 0%, 41%)
+- Dark Blue: hsl(233, 26%, 24%)
+- Lime Green: hsl(136, 65%, 51%)
+- Bright Cyan: hsl(192, 70%, 51%)
 
 ### Neutral
+
+- Grayish Blue: hsl(233, 8%, 62%)
+- Light Grayish Blue: hsl(220, 16%, 96%)
+- Very Light Gray: hsl(0, 0%, 98%)
+- White: hsl(0, 0%, 100%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 15px
+- Font size: 18px
 
-### Fonts
+### Font
 
-- Family: [Alata](https://fonts.google.com/specimen/Alata)
-- Weight: 400
-
-- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
-- Weight: 300
-
-## Icons
-
-We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com)
-- [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com)
+- Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
+- Weights: 300, 400, 700
